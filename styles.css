@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 233, 233);
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px ;
+    background-color: rgba(0, 0, 0, 0.89);
+  }
+  .navbar-left{
+    margin-left: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 5px 0;
+  }
+  .navbar-left a {
+    text-decoration: none;
+    margin-right:10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .navbar-left a:hover{
+    text-decoration: none;
+  }
+
+  
+  .navbar-left a:active {
+    font-weight: bold;
+  }
+  .navbar-right{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 10px;
+    bottom: 14px;
+    
+  }
+  
+  #logo{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #4CAF50;
+  }
+
+  #logo:hover{
+    color: #4CAF50;
+  
+  }
+
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 24px;
+    background-color: #f9f9f9;
+    min-width: 134px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+  }
+  
+  .dropdown-content a {
+    color: #131313;
+    padding: 18px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover{
+    background-color: rgb(221, 216, 216);
+    width: 100%;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .navbar-right button {
+    margin-left: 10px;
+  }
+
+  .navbar-right button:hover {
+    opacity: 0.7;
+  }
+  
+  .login-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-btn {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  
+  /* Card slider styles */
+  .happy-customers {
+    background-color: rgb(246, 245, 245);
+    padding: 40px 0;
+  }
+  .container{
+    width: 100%;
+  }
+
+  .happy-customers h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-slider {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    max-width: 300px;
+    margin: 1%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .card-description {
+    font-style: italic;
+  }
+
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    object-fit: cover;
+  }
+  
+  /* Contact form styles */
+  .contact {
+    padding: 40px 20px;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .contact button {
+    background-color: #17c13f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 47%;
+
+  }
+  .contact button:hover
+  {
+    opacity: 0.6;
+  }
+
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
