@@ -56,3 +56,11 @@ body{
     background-color: #45a049;
   }
   
+  .text a{
+    text-decoration: none;
+    color: #45a049;
+  }
+
+  .text a:hover{
+    font-weight: bold;
+  }
